@@ -1,0 +1,28 @@
+LinkWiz SaaS - Licensing Information
+
+This software is distributed under the following license agreement. By using or distributing this software, you agree to the terms and conditions outlined below.
+
+License Agreement:
+
+1. Usage: LinkWiz SaaS is licensed for use on a single domain or installation per license purchase. You may use it for personal or commercial purposes.
+
+2. Redistribution: You are not allowed to redistribute, sublicense, or share the source code of this software in any form, whether modified or unmodified. You may not make the software available for download on any website, marketplace, or software repository without prior written consent.
+
+3. Modifications: You are permitted to make necessary modifications to the software to meet your specific requirements. However, any modifications or derivative works must not remove or alter any copyright notices, license information, or attribution within the software.
+
+4. Support and Updates: The purchase of this software includes access to updates and support for a specified period. You may renew support and updates as needed.
+
+5. Copyright: LinkWiz SaaS is protected by copyright laws and international copyright treaties. All rights to the software are owned by the original author (Hasan Rizvee).
+
+6. No Warranty: This software is provided "as is" without any warranty or guarantee of fitness for any particular purpose. The author is not liable for any damages or issues caused by the use of this software.
+
+7. Termination: This license is valid until terminated. If you violate any terms of this license, it will be terminated, and you must cease using the software.
+
+By using LinkWiz SaaS, you acknowledge that you have read, understood, and agree to be bound by this license agreement. If you do not agree with the terms and conditions outlined above, you must not use this software.
+
+For any questions or concerns regarding this license agreement, please contact the author:
+
+Author: Hasan Rizvee
+Author URI: https://github.com/rizvee
+
+Thank you for choosing LinkWiz SaaS.

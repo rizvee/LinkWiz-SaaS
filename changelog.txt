@@ -1,0 +1,28 @@
+LinkWiz SaaS Changelog
+
+Version 1.0.0 - 30 october 2023
+
+Initial Release
+
+Features:
+- User registration and login functionality.
+- User-friendly link management system.
+- URL shortening feature for creating memorable links.
+- QR code generation for easy access to links.
+- Bio-Links to personalize links with custom images and messages.
+- Admin dashboard for link management and settings configuration.
+- Localization support for multiple languages.
+- Troubleshooting section in documentation.
+- Basic customization and extensibility options.
+- Monetization strategies, including subscription plans.
+
+Bug Fixes:
+- Fixed user registration issues.
+- Resolved URL shortening issues.
+- Fixed login issues.
+- Fixed customization and configuration issues.
+- Resolved various other bugs and errors.
+
+Known Issues:
+- None at this time.
+

@@ -1,0 +1,29 @@
+# LinkWiz SaaS - Localization Template
+
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_US\n"
+
+# General Settings
+msgid "Site Title"
+msgstr ""
+
+msgid "Site Description"
+msgstr ""
+
+msgid "Site Logo"
+msgstr ""
+
+msgid "Save General Settings"
+msgstr ""
+
+# Additional Strings to Translate
+# You should include all translatable strings from your script in this file.
+
+# Example:
+# msgid "Welcome to LinkWiz SaaS"
+# msgstr ""
+
+# Note: Translators will fill in the "msgstr" field with the translated text.
+
