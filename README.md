@@ -15,39 +15,40 @@ White-Label Branding
 Monetization Mastery
 
 
-## Folder structure
+## Folder Structure
+
 linkwiz-saas/
 │
-├── index.php 
+├── index.php
 │
 ├── assets/
-│   ├── css/
-│   │   ├── styles.css
-│   ├── js/
-│       ├── script.js 
+│ ├── css/
+│ │ ├── styles.css
+│ ├── js/
+│ ├── script.js
 │
 ├── includes/
-│   ├── admin/
-│   │   ├── dashboard.php 
-│   │   ├── settings.php
+│ ├── admin/
+│ │ ├── dashboard.php
+│ │ ├── settings.php
 │
 ├── templates/
-│   ├── admin/
-│       ├── manage-links.php
-│       ├── settings.php 
+│ ├── admin/
+│ ├── manage-links.php
+│ ├── settings.php
 │
 ├── languages/
-│   ├── linkwiz-saas.pot
+│ ├── linkwiz-saas.pot
 │
-├── docs/ 
+├── docs/
 │
 ├── lib/
-│   ├── qr-code/
-│   │   ├── qr-code-generator.php 
-│   ├── url-shortening/
-│       ├── url-shortener.php 
+│ ├── qr-code/
+│ │ ├── qr-code-generator.php
+│ ├── url-shortening/
+│ ├── url-shortener.php
 │
-├── changelog.txt 
+├── changelog.txt
 ├── license.txt
 
 
