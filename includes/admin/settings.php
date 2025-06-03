@@ -1,50 +1,25 @@
 <?php
-// admin/settings.php
+// includes/admin/settings.php
 
-// Include any necessary functions or database connections here
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
 
+// Ensure this page is loaded through admin menu (capability check is in admin-menu.php)
 ?>
+<div class="wrap">
+    <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
+    <form method="post" action="options.php">
+        <?php
+        // Output nonce, action, and option_page fields for a settings page.
+        settings_fields('linkwiz_saas_settings_group'); // Must match the group name used in register_setting()
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>LinkWiz SaaS - Admin Settings</title>
-    <link rel="stylesheet" type="text/css" href="<?php echo plugins_url('/assets/css/styles.css', __FILE__); ?>">
-</head>
-<body>
+        // Output the settings sections and their fields.
+        // Must match the page slug used in add_settings_section() / add_settings_field()
+        do_settings_sections('linkwiz_saas_settings_page');
 
-<header class="header">
-    <h1>LinkWiz SaaS Admin Settings</h1>
-</header>
-
-<nav class="menu">
-    <ul>
-        <li><a href="#">General</a></li>
-        <li><a href="#">Billing</a></li>
-        <li><a href="#">Security</a></li>
-    </ul>
-</nav>
-
-<div class="container">
-    <h2>General Settings</h2>
-
-    <form method="post" action="">
-        <label for="site_title">Site Title:</label>
-        <input type="text" name="site_title" id="site_title" value="LinkWiz SaaS">
-        
-        <label for="site_description">Site Description:</label>
-        <textarea name="site_description" id="site_description">Your description here.</textarea>
-        
-        <label for="site_logo">Site Logo:</label>
-        <input type="file" name="site_logo" id="site_logo">
-        
-        <input type="submit" name="save_settings" value="Save Settings">
+        // Output save settings button
+        submit_button(__('Save Settings', 'linkwiz-saas'));
+        ?>
     </form>
 </div>
-
-<footer class="footer">
-    <p>&copy; <?php echo date('Y'); ?> LinkWiz SaaS. All rights reserved.</p>
-</footer>
-
-</body>
-</html>

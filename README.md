@@ -1,15 +1,15 @@
 
 # LinkWiz-SaaS: Simplify, Personalize, and Excel
 
-LinkWiz-SaaS is a PHP script designed to revolutionize link management in the digital age. With a focus on simplifying link handling, it offers a powerful set of features that empower businesses, influencers, and marketers to optimize their online presence.
+LinkWiz-SaaS is a WordPress plugin designed to revolutionize link management in the digital age. With a focus on simplifying link handling, it offers a powerful set of features that empower businesses, influencers, and marketers to optimize their online presence.
 
 
 ## Features
 - Lightning-Fast QR Code Generation
 - Memorable URL Shortening
 - Personalized Bio-Links
-- Robust Laravel Framework
-- SaaS-Ready Simplicity
+- WordPress Plugin Architecture
+- Plugin Simplicity
 - White-Label Branding
 - Monetization Mastery
 
